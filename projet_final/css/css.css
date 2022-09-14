@@ -1,0 +1,108 @@
+ 
+.entete{
+	background-color: black;
+	width: auto;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-top: #a9865e;
+}
+.entete img{
+	width: 25%;
+}
+.option1{
+	
+	width: 400px;
+	height: 200px;
+	
+}
+
+.option2{
+	
+	width: 400px;
+	height: 200px;
+	
+}
+.option2 p{
+	font-size: x-large;
+	color: white;
+	border-color: #2e3192;
+	margin-top: 50px;
+}
+.option2 img{
+	visibility: hidden;
+	
+}
+/* style de mes bouttons*/
+.btn{
+	width: 180px;
+	height: 40px;
+	border-color: #a9865e;
+	border-radius: 50px;
+}
+.btn-inscrire{
+	float: right;
+	margin-top:150px;
+}
+.btn-connecter{
+	float: left; 
+	margin-top:150px;
+}
+.btn-accueil{
+	background-color: #2e3192;
+	color: white;
+	float: right; 
+	margin-right: 50px;
+	margin-top:50px;
+	border-color: #a9865e;
+}
+
+
+/* hover des bouttons*/
+.btn-accueil:hover{
+	background-color: white;
+	color: #2e3192 ;
+}
+
+.btn-inscrire:hover{
+	background-color: #2e3192;
+	color: white;
+}
+.btn-connecter:hover{
+	background-color: #2e3192;
+	color: white;
+}
+/*fin*/
+/* menu index*/
+.menu_index{
+	visibility: hidden;
+	float: right;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: auto;
+	height: auto;
+	margin-top: -200px;
+	background-color: #2e3192;
+}
+
+
+/* hover des bouttons*/
+.btn-accueil1:hover{
+	background-color: white;
+	color: #2e3192 ;
+}
+
+.btn-inscrire1:hover{
+	background-color: #2e3192;
+	color: white;
+}
+.btn-connecter1:hover{
+	background-color: #2e3192;
+	color: white;
+}
+/*fin*/
+
+/* fin menu index */

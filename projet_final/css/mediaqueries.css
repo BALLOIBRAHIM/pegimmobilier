@@ -1,0 +1,126 @@
+.petit{
+    display: none;
+    color: red;
+}
+@media all and (min-width: 1024px) and (max-width: 1280px ) {
+    
+/* page d'accueil*/
+
+
+
+
+}
+
+
+/* autre ecran */
+@media all and (max-width : 999px)
+{
+    .petit{display: block;
+    
+    }
+    .grand{display: none;}
+
+
+    /* page d'accueil*/
+
+    .entete{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: #a9865e;
+    }
+    .entete img{
+        width: 25%;
+    }
+
+    .option2 img{
+        visibility: visible;
+        margin-top: -130px;
+	    width: 25%; 
+	    float: right;
+        border-radius: 20px;
+    }
+    .option2 p {
+        color: #2e3192;
+        font-size: 1.1em;
+        margin-top: 100px;
+    }
+    .option1{
+        display: none;
+        width: 200px;
+        height: 200px;
+        background-color: #1e1e22;
+    }
+    
+    .option2{
+       
+        width: auto;
+        height: auto;
+       /* background-color: #2e3192;*/
+    }
+    /* style de mes bouttons*/
+    .btn{
+        width: 125px;
+        height: 25px;
+    }
+    .btn-inscrire{
+        display: none;
+    }
+    .btn-connecter{
+       display: none;
+    }
+    .btn-accueil{
+        display: none;
+        float: right; 
+        margin-top:-100px;
+    }
+    
+    /*fin*/
+
+/* menu index*/
+.menu_index{
+    visibility: visible;
+	float: right;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 300px;
+	height: 300px;
+	margin-top: -132px;
+	background-color: #2e3192;
+}
+
+
+.btn-inscrire1{
+    clear: both;
+	float: left;
+	margin-left: 85px;
+	margin-top:40px;
+}
+.btn-connecter1{
+	clear: both;
+    float: left;
+	margin-left: 85px;
+	margin-top:40px;
+}
+.btn-accueil1{
+	background-color: #2e3192;
+	color: white;
+	clear: both;
+    float: left;
+	margin-left: 85px;
+	margin-top:30px;
+	border-color: #a9865e;
+}
+.para1{
+    font-size: 1.2em;
+    color: white;
+    margin-top: 20px;
+}
+/* fin menu index */
+
+    /* page d'accueil fin*/
+}

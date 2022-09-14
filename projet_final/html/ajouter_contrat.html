@@ -1,0 +1,41 @@
+
+
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>ajouter contrat</title>
+        <head>
+  <link rel="stylesheet" href="../css/css-contrat.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  
+</head>
+
+<body>
+  <div class="main">
+    <p class="sign" align="center">contrat
+      <img src="../module_proprietaire/images/PNG/contracter (3).png" width="25%" style="margin-left:50px;">
+    </p>
+    <form class="form1" method="POST" action="../php/ajouter_contrat.php">
+      <input class="un "  name="C_datedebut" type="date"  >
+      <input class="un " name="C_datefin" type="date"  >
+      <input class="un " name="C_montantloyer" type="number" any min="0" placeholder="montant loyer">
+      <input class="un "  nam="C_caution"any type="number" min="0" placeholder="caution">
+      <select class="un " align="center" name="C_bien">
+        <option  value="bien choisi" align="center"> choix le bien</option>
+      </select>
+      <select class="un " align="center" name="C_L_num">
+        <option  value="locataire choisi" align="center"> choix le locataire</option>
+      </select>
+      
+     <input type="submit" value="ajouter" name="ajouter" class="submit" ?>
+      <p class="forgot" align="center"></p>
+            
+                
+    </div>
+
+</body>
+
+</html>

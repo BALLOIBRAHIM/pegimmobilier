@@ -1,0 +1,73 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>ajouter locataire</title>
+        
+        <link rel="stylesheet" href="../css/css-modifier.css"/>
+        <script src="../javascript/javascript-connexion.js"></script>
+        
+    </head>
+<body>
+<!--
+
+    <div class="login-container">
+        <section class="login" id="login">
+          <header>
+            <h2 style="font-size: medium;">PEGIMMOBILIERE</h2>
+            <h4>S'inscrire</h4><img src="../images/ajouter-un-utilisateur.png" width="110px" height="125px" style="clear: both;float: right;margin-top:-120px;"/>
+          </header>
+          <form class="login-form" action="../php/inscrire_p.php" method="post">
+            <input type="text" class="login-input" placeholder="e-mail" name="email" required autofocus/>
+            <input type="text" class="login-input" placeholder="nom complet" name="nom_complet" required/>
+            <input type="password" class="login-input" placeholder="mot de passe" name="pwd" required/>
+            <input type="password" class="login-input" placeholder="confirmer mot de passe" name="pwdconf" required/>
+            <div class="submit-container">
+                <button type="submit" class="login-button" name="valider">valider</button>
+              <button type="reset" class="login-button" style="clear: both; float: left;">annuler</button>
+              <button type="submit" class="login-button"  style="clear: both; float: left;"><a href="../module_accueil/index.html">se retourner à l'accueil</a> </button>
+            </div>
+          </form>
+        </section>
+        <p class="m-0 small">Copyright &copy; PEGIMMOBILIERE 2021</p>
+
+      </div>
+     -->
+     <form method="POST" action="../php/ajouter_locataire.php">
+     <table border="0" cellspacing="20px" width="450px" height="420px" style="margin-top: 0px;margin-bottom: 0px;margin-left:300px;">
+         <tr>
+             <td><input type="text" name="L_nom" placeholder="nom"  /></td>
+             <td><input type="text" name="L_premon" placeholder="prenom" /></td>
+         </tr>
+         <tr>
+            <td><input type="date" name="L_datenais" placeholder="date de naissance" /></td>
+            <td><input type="text" name="L_lieunais" placeholder="lieu de naissance"  /></td>
+        </tr>
+        <tr>
+            <td><input type="email" name="L_email" placeholder="email"  /></td>
+            <td><input type="number" any name="L_tel" placeholder="contact"  /> </td>
+        </tr>
+        <tr>
+            <td><input type="text" name="L_Pnomcomplet" placeholder="nom complet de la mère"  /></td>
+            <td><input type="text"  name="L_Mmomcomplet" placeholder="nom complet de la père" /></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="L_sm" id="P_m" value="marié"/><label for="P_m"> marié</label>
+                <input type="radio" name="L_sm" id="P_c" value="célibataire"/><label for="P_c"> célibataire</label></td>
+            <td>
+                <input type="radio" name="L_sexe" id="P_sexeh" value="homme"/><label for="P_sexeh"> Homme</label>
+                <input type="radio" name="L_sexe" id="P_sexef" value="femme"/><label for="P_sexef"> Femme</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><textarea name="L_desc" rows="4" cols="55" placeholder="information facultative"  ></textarea></td>
+        </tr>
+        <tr>
+            <td align="center"><input type="submit" name="valider" value="ajouter" style="width: 100px; height: 40px;"/></td>
+            <td ><input type="reset"  name="annuler" value="annuler" style="width: 100px; height: 40px;"/> </td>
+        </tr>
+     </table>
+</form>
+</body>
+
+</html>
